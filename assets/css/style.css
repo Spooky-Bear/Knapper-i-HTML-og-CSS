@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.btn-default{
+    color: #D800ff;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.btn-default:hover{
+    color: #82029A;
+    font-size: 40px;
+}
+
+.btn-square{
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 1.18em 2.56em;
+    text-decoration: none;
+    background-color: #D800ff;
+}
+
+.btn-square:hover{
+    background-color: #82029A;
+}
+
+.btn-border-radius{
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 1.18em 2.56em;
+    border-radius: 1.2em;
+    text-decoration: none;
+    background-color: #D800ff;
+}
+
+.btn-border-radius:hover{
+    background-color: #82029A;
+}
+
+.btn-box-shadow{
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 1.18em 2.56em;
+    border-radius: 1.2em;
+    box-shadow: 0px 10px 10px lightgrey;
+    text-decoration: none;
+    background-color: #D800ff;
+}
+
+.btn-box-shadow:hover{
+    background-color: #82029A;
+}
+
+.btn-gradient{
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 1.18em 2.56em;
+    border-radius: 1.2em;
+    background: rgb(130,2,154);
+background: linear-gradient(0deg, rgba(130,2,154,1) 0%, rgba(216,0,255,1) 100%);
+    box-shadow: 0px 10px 10px lightgrey;
+    text-decoration: none;
+    background-color: #D800ff;
+}
+
+.btn-gradient:hover{
+    background: rgb(216,0,255);
+    background: linear-gradient(0deg, rgba(216,0,255,1) 0%, rgba(130,2,154,1) 100%);;
+}
